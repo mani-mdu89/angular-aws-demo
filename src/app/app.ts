@@ -14,7 +14,7 @@ interface Task {
   templateUrl: './app.html',
   styleUrl: './app.css'
 })
-export class AppComponent {
+export class App {
   pageTitle = signal('Task Manager');
   newTaskTitle = signal('');
   
